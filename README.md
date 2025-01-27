@@ -62,8 +62,9 @@ O projeto consiste em uma aplicação backend para gerenciamento de jogos e list
 4. Acesse o projeto no navegador:
    http://localhost:8080
 
-#import.sql 
+### import.sql
 
+```sql
 INSERT INTO tb_game_list (name) VALUES ('Aventura e RPG');
 INSERT INTO tb_game_list (name) VALUES ('Jogos de plataforma');
 
@@ -89,6 +90,7 @@ INSERT INTO tb_belonging (list_id, game_id, position) VALUES (2, 7, 1);
 INSERT INTO tb_belonging (list_id, game_id, position) VALUES (2, 8, 2);
 INSERT INTO tb_belonging (list_id, game_id, position) VALUES (2, 9, 3);
 INSERT INTO tb_belonging (list_id, game_id, position) VALUES (2, 10, 4);
+```
 
   
 
